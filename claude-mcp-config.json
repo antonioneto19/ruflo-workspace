@@ -1,0 +1,48 @@
+{
+  "mcpServers": {
+    "ruflo": {
+      "command": "npx",
+      "args": ["ruflo@latest", "mcp", "start"],
+      "env": {
+        "RUFLO_API_KEY": "${RUFLO_API_KEY}",
+        "ANTHROPIC_API_KEY": "${ANTHROPIC_API_KEY}",
+        "MCP_PORT": "3100",
+        "MCP_HOST": "localhost",
+        "MCP_TRANSPORT": "stdio",
+        "MCP_AUTOSTART": "true"
+      }
+    }
+  },
+  "tools": [
+    "code-review",
+    "test-generation",
+    "security-audit",
+    "deployment",
+    "memory-sync",
+    "rag-search",
+    "automation",
+    "lgpd-compliance"
+  ],
+  "resources": [
+    "github-repos",
+    "supabase-schemas",
+    "vercel-projects",
+    "project-docs"
+  ],
+  "projects": {
+    "ClubFlow": "../ClubFlow",
+    "VetBooking": "../agendamento-veterinario-vetbooking",
+    "PetSkin": "../landing-page-Petskin-cursos-dra-cristiane-freitas",
+    "Bridge-CC": "../centro-de-comando-da-ponte",
+    "ECOCIL": "../CONSULTORIA-ECOCIL",
+    "Laconelli": "../laconelli-brand"
+  },
+  "_instrucoes": {
+    "uso_local": "Execute: claude mcp add ruflo -- npx ruflo@latest mcp start",
+    "passo1": "cd ~/seu-projeto",
+    "passo2": "npx ruflo init",
+    "passo3": "claude mcp add ruflo -- npx ruflo@latest mcp start",
+    "verificar": "claude mcp list",
+    "porta": "localhost:3100"
+  }
+}
