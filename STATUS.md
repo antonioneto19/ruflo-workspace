@@ -1,6 +1,6 @@
 # Ruflo Workspace — Status de Todos os Repositórios
 
-> Última atualização: 2026-06-08 | Ambiente: Lagoa Nova, RN, Brasil
+> Última atualização: 08/06/2026 16:00 | Ambiente: Pium, RN, Brasil | PetSkin ruflo-agents.yml adicionado ✅
 
 ## Visão Geral
 
