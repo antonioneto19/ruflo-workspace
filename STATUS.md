@@ -119,3 +119,23 @@ ruflo memory sync --backend agentdb-persistent
 # Iniciar servidor MCP
 ruflo mcp start --project <nome>
 ```
+
+---
+
+## Atualização 13/06/2026 — Reordenação de Prioridades
+
+**NOVA PRIORIDADE MÁXIMA: CONSULTORIA ECOCIL**
+
+| Rank | Projeto | Motivo |
+|------|---------|--------|
+| 🔴 1 | ECOCIL | Cliente real ativo — gera receita imediata |
+| 🔴 2 | Bridge Site | Presença institucional da empresa |
+| 🟠 3 | VetBooking | MVP Beta — produto SaaS em andamento |
+| 🟠 4 | ClubFlow | 2 bugs E2E bloqueando CI/CD |
+| 🟡 5 | Laconelli | Marca em estruturação |
+| 🟡 6 | PetSkin | Landing page / cursos |
+
+**Configurações realizadas:**
+- CLAUDE.md v2.0 commitado em bridge-command-center ✅
+- CLAUDE.md v4.0 commitado em ruflo-workspace ✅
+- Briefing diário automático às 07:00 BRT configurado ✅
